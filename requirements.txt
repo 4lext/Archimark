@@ -1,0 +1,26 @@
+# UI Framework
+PyQt6>=6.0.0
+PyQt6-WebEngine>=6.0.0
+
+# Web Processing
+beautifulsoup4>=4.9.3
+html2text>=2020.1.16
+readability-lxml>=0.8.1
+requests>=2.25.1
+markdown>=3.3
+
+# Security & Performance
+cryptography>=3.4
+certifi>=2021.10.8
+xxhash>=2.0.2
+msgpack>=1.0.2
+diskcache>=5.2.1
+
+# Text-to-Speech
+TTS>=0.8.0
+torch>=1.9.0
+
+# Development
+black>=21.5b2
+pylint>=2.8.2
+pytest>=6.2.4 
