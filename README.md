@@ -1,6 +1,34 @@
 # Archimark
 
 A powerful web content archiving solution with advanced features for content extraction, organization, and RSS feed management.
+REQUIRES PYTHON 3.9
+
+## Installation
+
+### Prerequisites
+- Python 3.9
+- NVIDIA GPU with CUDA (optional, for Text To Speech (TTS) acceleration)
+### Create Virtual Environment
+```bash
+conda create --name nameofenvironment python=3.9
+```
+
+### Install Dependencies
+After you have created the environment install the required packages. 
+```bash
+pip install -r requirements.txt
+```
+### Run 
+```bash
+python webpage2markdown3.py
+```
+### Basic Usage
+1. Launch the Program
+2. Enter a URL in the converter tab
+3. Click "Extract" or press Ctrl+E
+4. Preview the content
+5. Add tags (Ctrl+T)
+6. Save as markdown (Ctrl+S)
 
 ## Features
 
@@ -42,30 +70,9 @@ A powerful web content archiving solution with advanced features for content ext
 - Domain validation
 - Image content validation
 
-## Installation
-
-### Prerequisites
-- Python 3.8 or higher
-- PyQt6
-- CUDA-capable GPU (optional, for TTS acceleration)
-
-### Dependencies
-```bash
-pip install PyQt6 requests readability-lxml html2text PyQt6-WebEngine beautifulsoup4 TTS torch feedparser Pillow
-```
 
 ## Usage
 
-### Basic Usage
-1. Launch the program:
-   ```bash
-   python webpage2markdown3.py
-   ```
-2. Enter a URL in the converter tab
-3. Click "Extract" or press Ctrl+E
-4. Preview the content
-5. Add tags (Ctrl+T)
-6. Save as markdown (Ctrl+S)
 
 ### RSS Reader
 1. Switch to the News Reader tab
